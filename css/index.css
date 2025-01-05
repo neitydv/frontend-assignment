@@ -45,6 +45,9 @@ tbody {
 th {
     width: 100%;
     padding: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 tr {
@@ -73,4 +76,7 @@ td {
     background-color: white;
     padding: 5px;
     border-right: var(--white-border);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
